@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      
+    <link rel="icon" href="../img/tent3.jpg">
+    <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ControlWorld</title>
+  </head>
+  <body>
+      
+      
+      
+      <a href="../index.html">
+          <button>Voltar</button>
+      </a>
+
+      <script src="../js/script.js" type="text/javascript"></script>
+
+    <div class="container">
+      <h1>Controle de Videogames</h1>
+      <div class="controls" id="controlList"></div>
+      <h2>Filtrar por Preço</h2>
+      <div class="form-group">
+        <input
+          type="range"
+          id="preco"
+          min="100"
+          max="1000"
+          step="50"
+          oninput="atualizarPreco()"
+        />
+        <span id="precoValor">R$ 100</span>
+        <button onclick="filtrarControles()">Filtrar</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+body {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  background: linear-gradient(to right, #141e30, #243b55);
+  color: #fff;
+  padding: 20px;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(219, 162, 5);
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.control {
+  width: 180px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.3);
+}
+.control:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px rgba(212, 198, 3, 0.7);
+}
+.control img {
+  width: 100%;
+  border-radius: 5px;
+}
+.form-group {
+  margin: 15px 0;
+}
+input,
+button {
+  padding: 12px;
+  margin: 5px;
+  font-family: "Press Start 2P", cursive;
+  background: #d88f07;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #a15702;
+}
+input[type="range"] {
+  width: 80%;
+}
+.delete {
+  color: red;
+  cursor: pointer;
+}

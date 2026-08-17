@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#fundo-inicio{
+    background-image: url(../img/fundo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+figure{
+    width: 30%;
+    height: 40%;
+}
+figure img{
+    width: 100%;
+}
+
+#topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    left: 5.5%;
+}
+.btn-controle{
+    width: 15%;
+}
+.btn-contato{
+    margin-right: 20px;
+    padding: 1% 6%;
+}
+
+#corpo-lista{
+    position: relative;
+    top:200px;
+    z-index: 1;
+}
