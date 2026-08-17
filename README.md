@@ -10,8 +10,9 @@ Java °
 JS °
 MySQL
 
-Outros softwares utilizados:
+Requisitos:
 
-Apache NetBeans °
-Apache TomCat EE °
-XAMPP
+- Apache NetBeans (Opcional) 
+- Apache TomCat EE 
+- XAMPP 
+- MySQL Connector (5.1.47) 
